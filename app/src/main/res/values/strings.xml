@@ -9,4 +9,7 @@
     <string name="sugar">sugar</string>
     <string name="lemon">lemon</string>
     <string name="nice_phrase">Your wish is my command, please submit your order.</string>
+    <string name="send">Send</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
 </resources>

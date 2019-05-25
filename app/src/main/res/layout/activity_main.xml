@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -39,14 +40,16 @@
         android:layout_column="0"
         android:text="@string/milk"
         />
-    <CheckBox android:id="@+id/checkbox_sugar"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_row="4"
-    android:layout_column="0"
-    android:text="@string/sugar"
+    <CheckBox
+        android:id="@+id/checkbox_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="@string/sugar"
     />
-    <CheckBox android:id="@+id/checkbox_lemon"
+    <CheckBox
+        android:id="@+id/checkbox_lemon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="5"
@@ -54,11 +57,25 @@
         android:text="@string/lemon"
         />
     <TextView
+        android:id="@+id/nice_phrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="6"
         android:layout_column="0"
         android:text="@string/nice_phrase"/>
+    <Button
+        app:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_row="10"
+        android:layout_marginBottom="@+id/nice_phrase"
+        app:layout_columnSpan="1"
+        android:text="@string/send"
+        android:onClick="onToggleButtonClicked"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        android:layout_row="7"
+        android:layout_column="0" />
 
 </GridLayout>
 

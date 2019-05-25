@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Purple_May</string>
     <string name="textview">TextView</string>
+    <string name="message">How would you have your tea served:</string>
+    <string name="temp">Temperature:</string>
+    <string name="hot">hot</string>
+    <string name="cold">cold</string>
+    <string name="milk">milk</string>
+    <string name="sugar">sugar</string>
+    <string name="lemon">lemon</string>
+    <string name="nice_phrase">Your wish is my command, please submit your order.</string>
 </resources>

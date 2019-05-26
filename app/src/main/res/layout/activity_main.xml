@@ -63,19 +63,6 @@
         android:layout_row="6"
         android:layout_column="0"
         android:text="@string/nice_phrase"/>
-    <Button
-        app:layout_column="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_row="10"
-        android:layout_marginBottom="@+id/nice_phrase"
-        app:layout_columnSpan="1"
-        android:text="@string/send"
-        android:onClick="onToggleButtonClicked"
-        android:textOn="@string/on"
-        android:textOff="@string/off"
-        android:layout_row="7"
-        android:layout_column="0" />
 
 </GridLayout>
 
